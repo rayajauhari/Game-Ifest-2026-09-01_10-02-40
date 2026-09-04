@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8235428191680413848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1748417793810155311}
+  - component: {fileID: 7862186466492405844}
+  m_Layer: 0
+  m_Name: NightHorrorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1748417793810155311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8235428191680413848}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7862186466492405844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8235428191680413848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b99bc85e8aeca7418296ac17aa8270d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NightHorrorManager
+  dayDuration: 8
+  nightPrepDuration: 10
+  monsterPatrolDuration: 6
+  currentPhase: 0
+  isDoorChained: 0
+  isAlarmTurnedOff: 0
+  timerStatusText: {fileID: 0}
+  promptText: {fileID: 0}
+  warningBannerText: {fileID: 0}
+  stickyNotePopup: {fileID: 0}
+  checklistText: {fileID: 0}
+  backgroundRenderer: {fileID: 0}
+  dayBackground: {fileID: 1811359879911733027, guid: 5627a610f034e0d478a28332688b4a44, type: 3}
+  nightBackground: {fileID: 44248449238757808, guid: cc47cc8a7ae129a40b0e3ed845cc646b, type: 3}
+  chainOverlayObject: {fileID: 0}
+  alarmClockObject: {fileID: 0}
+  stickyNoteObject: {fileID: 0}
+  doorPatrolPosition: {fileID: 0}
+  monsterStalkerRenderer: {fileID: 0}
+  monsterWalkSprites:
+  - {fileID: 4890467264836009344, guid: f7c24b9b1401371429b0621be56f368d, type: 3}
+  - {fileID: -7937429906624479718, guid: 7d68127fb8d92714684de907dcfe3e2b, type: 3}
+  monsterAggroSprites:
+  - {fileID: 2797485293925960419, guid: 4c04b5ade88b97f42b512372a68462fe, type: 3}
+  - {fileID: 2076018905491931320, guid: 50bdf819fcfc1c04eba0c95635ee570f, type: 3}
+  - {fileID: 5596359938453538981, guid: be37085db382ed840ab7c162141a3572, type: 3}
+  dayNightCycle: {fileID: 0}
+  globalLight2D: {fileID: 0}
